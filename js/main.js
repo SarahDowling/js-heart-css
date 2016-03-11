@@ -3,12 +3,12 @@ var $h1 = $('h1');
 var $main = $('main');
 var $mainP  = $('main p:first-child');
 var $h2 = $('h2');
-var $mainList = $('main list');
+var $mainList = $('main ul');
 var $img = $('img');
 var $dl = $('dl');
 var $dt = $('dt');
-var $lastList = $('ul li:last-child');
-var $firstList = $('ul li:first-child');
+var $lastList = $('li:last-child');
+var $firstList = $('li:first-child');
 
 $header.addClass('masthead');
 
@@ -31,8 +31,6 @@ $lastList.addClass('slug-list-last');
 $dl.addClass('classification');
 
 $dt.removeClass('big-label');
-
-$img.addClass('slug-img');
 
 $lastList.show();
 
